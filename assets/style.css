@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span {
+    color: #6b565691;
+    padding-left: 4px;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+h3 {
+    font-size: 1rem;
+    color: #ffffff92;
+}
+h4 {
+    font-size: 1rem;
+}
+h5 {
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+}
+h6 {
+    font-size: 1.5rem;
+    color: #ffffff92; 
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+p { 
+    font-size: 1rem;
+    color: #ffffff92;
+}
+.card {
+    box-shadow: rgb(0, 0, 0, .24) 0px 3px 8px;
+    border-radius: 20px;
+    height: 450px;
+    width: 700px;
+    display: flex;
+}
+.leftcard {
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    width: 50%;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+.card-circle {
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-inline: auto;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    place-content: center;
+}
+.rightcard {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+}
+.icon-title {
+    display: flex;
+    gap: 10px;
+}
+.row:nth-child(1) {
+    background-color:hsla(0, 100%, 67%, 0.170);
+}
+.row:nth-child(1) h3 {
+    color: hsl(0, 66%, 57%);
+}
+.row:nth-child(2) {
+    background-color:hsla(39, 100%, 56%, 0.170);
+}
+.row:nth-child(2) h3 {
+    color: hsl(39, 66%, 57%);
+}
+.row:nth-child(3) {
+    background-color:hsl(166, 100%, 37%, 0.170);
+}
+.row:nth-child(3) h3 {
+    color: hsl(166, 100%, 37%);
+}
+.row:nth-child(4) {
+    background-color:hsl(234, 85%, 45%, 0.170);
+    margin-bottom: 40px;
+}
+.row:nth-child(4) h3 {
+    color: hsl(234, 85%, 37%);
+}
+.bttn {
+    padding-block: 20px;
+    border-radius: 50px;
+    background-color: hsl(224, 30%, 27%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.bttn:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
